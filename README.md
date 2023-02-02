@@ -14,6 +14,7 @@ In the year 2017, all stocks except TERP were recorded to be profitable. DQ, ENP
 (Ref: All_stocks_outcome_2017.png in Resources folder)
 
 In the year 2018, most stocks were at a loss. Only ENPH and RUN were profitable (>80% return). Of the stocks that were the most profitable in 2017, stated above, they all showed a large decrease in percent return, indicating that these stocks have a higher risk to invest in.
+![Alt text](/../<main>/Resources/All_stocks_outcome_2018.png?raw=true "All Stocks Outcome 2018")
 (Ref: All_stocks_outcome_2018.png in Resources folder)
 
 ### Run-time
