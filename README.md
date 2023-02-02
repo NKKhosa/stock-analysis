@@ -22,15 +22,19 @@ In the year 2018, most stocks were at a loss. Only ENPH and RUN were profitable 
 ### Run-time
 
 The original script ran the analysis for 2017 in 0.79 seconds 
+
 ![](https://github.com/NKKhosa/stock-analysis/blob/main/Resources/Module_runtime_2017.png?raw=true)
 
 and the refactored script ran in 0.16 seconds 
+
 ![](https://github.com/NKKhosa/stock-analysis/blob/main/Resources/VBA_Challenge_2017.png?raw=true)
 
 For 2018, the original script ran in 0.88 seconds 
+
 ![](https://github.com/NKKhosa/stock-analysis/blob/main/Resources/Module_runtime_2018.png?raw=true)
 
 and the refactored code ran in  0.15 seconds.
+
 ![](https://github.com/NKKhosa/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png?raw=true)
 
 By creating a tickerIndex variable and using it to input from and output to various arrays (tickerVolume(12), tickerStartingPrices(12), tickerEndingPrices(12)), the workflow of the code was streamlined and optimized to run more efficiently.
