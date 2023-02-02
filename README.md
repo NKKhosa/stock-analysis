@@ -11,16 +11,19 @@ The existing code was then refactored to allow the client to append the dataset 
 ### Stock Performance
 
 In the year 2017, all stocks except TERP were recorded to be profitable. DQ, ENPH, FSLR, and SEDG showed incredible profits of >100% returns. The only non-profitable stock, TERP, had a loss of only -7.2%, however.
-(Ref: All_stocks_outcome_2017.png in Resources folder)
+
+![](https://github.com/NKKhosa/stock-analysis/blob/main/Resources/All_stocks_outcome_2017.png?raw=true)
+
 
 In the year 2018, most stocks were at a loss. Only ENPH and RUN were profitable (>80% return). Of the stocks that were the most profitable in 2017, stated above, they all showed a large decrease in percent return, indicating that these stocks have a higher risk to invest in.
-![](https://github.com/NKKhosa/stock-analysis/blob/main/Resources/All_stocks_outcome_2018.png?raw=true "All Stocks Outcome 2018")
 
-(Ref: All_stocks_outcome_2018.png in Resources folder)
+![](https://github.com/NKKhosa/stock-analysis/blob/main/Resources/All_stocks_outcome_2018.png?raw=true "All Stocks Outcome 2018")
 
 ### Run-time
 
-The original script ran the analysis for 2017 in 0.79 seconds (Ref: Module_runtime_2017.png in Resources folder), and the refactored script ran in 0.16 seconds (Ref: VBA_Challenge_2017.png in Resources folder). For 2018, the original script ran in 0.88 seconds (Ref: Module_runtime_2018.png in Resources folder), and the refactored code ran in  0.15 seconds (Ref: VBA_Challenge_2018.png in Resources folder).
+The original script ran the analysis for 2017 in 0.79 seconds (Ref: Module_runtime_2017.png in Resources folder), and the refactored script ran in 0.16 seconds (Ref: VBA_Challenge_2017.png in Resources folder). For 2018, the original script ran in 0.88 seconds (Ref: Module_runtime_2018.png in Resources folder), and the refactored code ran in  0.15 seconds.
+
+![](https://github.com/NKKhosa/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png?raw=true)
 
 By creating a tickerIndex variable and using it to input from and output to various arrays (tickerVolume(12), tickerStartingPrices(12), tickerEndingPrices(12)), the workflow of the code was streamlined and optimized to run more efficiently.
 
